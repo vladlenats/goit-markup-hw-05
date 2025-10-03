@@ -470,7 +470,11 @@ form {
     align-items: center;
     gap: 8px;
 }
+.email-box {
+    display: flex;
+    flex-direction: column;
 
+}
 input[type="email"] {
     padding: 8px 12px;
     border: 1px solid #ccc;
@@ -482,7 +486,7 @@ input[type="email"] {
     display: flex;
     align-items: center;
     gap: 4px;
-    background-color: #007bff;
+    background-color: #4D5AE5;
     color: #fff;
     border: none;
     padding: 8px 16px;
