@@ -590,7 +590,7 @@ h3 {
 }
 
 .form-group {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .form-group:last-child {
@@ -624,6 +624,7 @@ h3 {
 
 .form-input:focus {
     border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .input-icon {
