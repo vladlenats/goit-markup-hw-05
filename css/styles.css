@@ -593,8 +593,8 @@ h3 {
     flex-direction: column;
 }
 
-.form-group {
-    margin-bottom: 8px;
+.form-group-1 {
+    margin-bottom: 16px;
 }
 
 .form-group:last-child {
@@ -609,7 +609,9 @@ h3 {
     color: #8e8f99;
     margin-bottom: 4px;
 }
-
+.form-group {
+    margin-bottom: 24px;
+}
 .input-wrapper {
     position: relative;
     margin-bottom: 8px;
@@ -637,7 +639,7 @@ h3 {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-icon:focus {
+.input-wrapper input:focus+.input-icon {
     fill: #4D5AE5;
 }
 .form-field p {
