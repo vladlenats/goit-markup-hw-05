@@ -460,6 +460,9 @@ h3 {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
+.footer-subscribe {
+    margin-bottom: 8px;
+}
 .social-text {
     font-weight: 500;
     color: #FFFFFF;
@@ -590,7 +593,7 @@ h3 {
 }
 
 .form-group {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .form-group:last-child {
@@ -676,11 +679,11 @@ h3 {
 }
 
 .checkbox-custom {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
