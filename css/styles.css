@@ -645,11 +645,15 @@ h3 {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .input-wrapper input:focus+.input-icon {
     fill: #4D5AE5;
 }
 .form-group-comment {
     margin-bottom: 8px;
+}
+.form-group-comment:last-child {
+    margin-bottom: 16px;
 }
 .form-textarea {
     width: 100%;
@@ -670,9 +674,13 @@ h3 {
 .form-textarea:focus {
     border-color: #4D5AE5;
 }
-.form-group:has(textarea) {
-margin-bottom: 16px;
- }
+.form-textarea {
+    margin-bottom: 24px;
+}
+
+.form-textarea:last-child {
+    margin-bottom: 0;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -706,11 +714,12 @@ margin-bottom: 16px;
     margin-right: 8px;
 }
 
-.input[type="checkbox"]:checked+.form-checkbox-label .checkbox-custom {
+input[type="checkbox"]:checked+.form-checkbox-label .checkbox-custom {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
+
 .privacy-link {
     color: #4d5ae5;
     margin-left: 4px;
